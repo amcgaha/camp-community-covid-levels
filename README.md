@@ -1,6 +1,6 @@
 # Camp Covid Geography
 
-I work for a summer camp in North Carolin. Our most important project this year is developing a safe opening plan in the context of COVID-19. With many best practices available, we would like to know how restrictive our policies and prodecures need to be this summer. We hope to strike a smart balance between classic camp freedoms and a safe environment, and we know this will depend on the prevailing conditions in May. 
+I work for a summer camp in North Carolina. Our most important project this year is developing a safe opening plan in the context of COVID-19. With many best practices available, we would like to know how restrictive our policies and prodecures need to be this summer. We hope to strike a smart balance between classic camp freedoms and a safe environment, and we know our restriction level should depend on the prevailing conditions in May. 
 
 Right now we lack a robust way to incorporate covid data into our decision-making. How will we determine our risk level in the planning phase, as well as during the summer as conditions continue to evolve?
 
