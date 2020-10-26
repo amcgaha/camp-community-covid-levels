@@ -1,4 +1,5 @@
-# Summer Camp Planning: The Geography of COVID-19
+# Summer Camp Planning: 
+## Assessing Our Campers' Hometown Spread
 
 I work for a summer camp in North Carolina. Our most important project this year is developing a safe opening plan in the context of COVID-19. With many best practices available, we would like to know how restrictive our policies and prodecures need to be this summer. We hope to strike a smart balance between classic camp freedoms and a safe environment, and we know our restriction level should depend on the prevailing conditions in May. 
 
