@@ -1,4 +1,4 @@
-# Covid Camp Community
+# Camp Covid Geography
 
 I work for a summer camp in North Carolina, and our most important project this year is developing a safe opening plan in the context of COVID-19. With many best practices available, we would like to know how restrictive our policies and prodecures need to be this summer. We hope to strike a smart balance between classic camp freedoms and a safe environment, and we know this will depend on the prevailing conditions in May. However, we lack a robust way to incorporate covid data into our decision-making. 
 
