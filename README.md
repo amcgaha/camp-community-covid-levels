@@ -1,5 +1,5 @@
-# Summer Camp Program Planning: 
-## Using Community COVID Data to Inform Program Decisions
+# Camp Community COVID Levels: 
+## Informing Summer Camp Decisions Based on Localized Community Spread
 
 I work for a summer camp in North Carolina. Our most important project this year is developing a safe opening plan in the context of COVID-19. With many best practices available, we would like to know how restrictive our policies and prodecures need to be this summer. We hope to strike a smart balance between classic camp freedoms and a safe environment. We want our restriction level to be informed by the epidemiological conditions in our campers' communities when we are making plans this spring. We also want to be able to adjust our plans as those conditions change throughout the summer. 
 
