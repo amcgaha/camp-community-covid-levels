@@ -1,6 +1,13 @@
 # Summer Camp COVID Risk:
 # Assessing Current Conditions by Customer Location
 
+## Contents
+1. [Introduction](https://github.com/amcgaha/camp-community-covid-levels/blob/main/README.md#introduction)
+2. [Sources](https://github.com/amcgaha/camp-community-covid-levels/blob/main/README.md#sources)
+3. [Methods & Tools](https://github.com/amcgaha/camp-community-covid-levels/blob/main/README.md#methods--tools)
+4. [Procedures](https://github.com/amcgaha/camp-community-covid-levels/blob/main/README.md#procedure)
+5. [Product](https://github.com/amcgaha/camp-community-covid-levels/blob/main/README.md#product)
+
 ## Introduction
 I work for a [summer camp](https:///www.greenriverpreserve.org) in North Carolina. Our most important project this year is developing a safe opening plan in the context of COVID-19. With many best practices available, our team would like to know how restrictive our policies and procedures need to be this summer.
 
