@@ -13,7 +13,7 @@ I work for a summer camp planning its 2021 season. We hope to base our program a
 ## Introduction
 I work for a [summer camp](https:///www.greenriverpreserve.org) in North Carolina. Our most important project this year is developing a safe opening plan in the context of COVID-19. With many best practices available, our team would like to know how restrictive our policies and procedures need to be this summer.
 
-We hope to strike an intelligent balance between freedom and a safe environment. Ideally, the level of restrictions we require would be informed by the current epidemiological conditions in our campers' communities. Because the pandemic seems to be ever-change, we would also want to know when to adjust our plans as conditions change throughout the spring and summer.
+We hope to strike an intelligent balance between freedom and a safe environment. Ideally, the level of restrictions we require would be informed by the current epidemiological conditions in our campers' communities. Because the pandemic seems to be ever-changing, we would also want to know if we need to adjust our plans as conditions change throughout the spring and summer.
 
 Our campers come from many different states and counties in the United States, but we have significant clusters in certain communities. We know that in the United States there are differences in COVID-19 outbreaks across communities, making location-specific data an important analytical tool.
 
