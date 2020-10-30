@@ -8,9 +8,13 @@ We hope to strike an intelligent balance between freedom and a safe environment.
 
 Our campers come from many different states and counties in the United States, but we have significant clusters in certain communities. We know that in the United States there are differences in COVID-19 outbreaks across communities, making location-specific data an important analytical tool.
 
-Before this project, we had no way to incorporate specific data about our campers' communities into our decision-making. Without this data, our process for determining risk would be limited at best -- and prone to bias and self-deception at worst. We might, for example, base our decisions on data about the nation as a whole, missing the important distinctions in geography that would reveal higher or lower risks. Or, with the pressure mounting to get good news, we might unconsciously select datapoints or anecdotes that lead us to underestimate the risks we face.
+Before this project, we had no way to incorporate specific data about our campers' communities into our decision-making. Without this data, our process for determining risk would be limited at best. We might, for example, base our decisions on data about the nation as a whole, missing the important distinctions in geography that would reveal higher or lower risks. Worse, we might suffer from bias and self-deception. With the pressure mounting to get good news, we might unconsciously select datapoints or anecdotes that lead us to underestimate the risks we face.
 
-This project provides a robust _first look_ at the conditions in our campers' communities. It connects the geography of COVID-19 data, including cases by county and positivity rates by state, with a database of enrolled campers that includes their zip codes. The result is an interactive dashboard that visualizes current COVID-19 data and estimated risks based on geography to inform our planning process.
+The solution to this dilemma is data. 
+
+This project provides a simple but useful shapshot into the current conditions in our campers' communities. It connects the geography of COVID-19 data, including cases by county and positivity rates by state, with a database of enrolled campers that includes their home address. 
+
+We present the data in an interactive dashboard for decision-makers. The dashboard visualizes current COVID-19 data in our campers' states and counties, along with estimates of the risks presented to our community based on how many campers come from each place. 
 
 A preview of the dashboard is embedded below. To visit the interactive version, [click here.](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
