@@ -85,3 +85,20 @@ In Tableau, we import the file created in the previous step. After first explori
 [View Tableau Workbook](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
 ## Product
+The final product is an interactive dashboard with four parts. It is built using Tableau. [Click here to view.](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link). 
+
+
+### 1. State Indicators
+The first page focuses on two indicators that come only from state-level data. Sometimes known as the "positivity rate", the first indicator is the proportion of total COVID-19 tests that have returned positive for COVID-19. The data reported are cumulative, meaning that the number seen on the dashboard is the proportion of *all* tests conducted that have been positive. 
+
+The bottom half of the page shows "recent increases" in COVID-19 cases, reported in the standard form of cases per 100,000 people in the state. This number is very limited, but it does alert us to states that might be "on the rise." If we are going to make decisions based on *trends* in certain states, we should not limit our research to this data, which is only a snapshot of recent increases. We should take any increases seen here as one clue, and then visit other resources to see a fuller picture of trends. 
+
+Both indicators are also presented in a block chart. In addition to tagging each state with its current indicator number, the block charts show the proportion of our enrolled campers who come from that state.
+
+### 2. County Indicators
+The second page adds new information at the county level. We see the cumulative number of COVID-19 cases by county, per 100,000 people. Like the first page, we also see these numbers on a block chart representing the counties most campers come from.
+
+### 3. Risk Overview
+Here we try to combine the indicators into one number that can help us understand our overall risk. To do this, we calculate a field called "risk points." These are calculated for each camper based on two numbers: The positivity rate for that camper's state, and the number of 
+
+### 4. Risk Detail
