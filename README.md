@@ -101,12 +101,10 @@ The second page adds new information at the county level. We see the cumulative 
 ### 3. Risk Overview
 Here we try to combine the indicators into one number that can help us understand our overall risk. To do this, we calculate a field called "risk points." These are calculated for each camper based on two numbers: The positivity rate for that camper's state, and the number of cases per 100,000 in their county. We multiply these numbers together, in an equation that might look like the ones below.
 
-Lower Risk:
+**Lower Risk:**
 (0.05% positivity rate * 100 cases = 5 risk points)
 
-or
-
-Higher Risk
+**Higher Risk:**
 (0.10% positivity rate * 300 cases = 30 risk points)
 
 When we add together all the risk points for each camper, we can get a sense of our overall risk. 
