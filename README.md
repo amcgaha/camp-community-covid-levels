@@ -99,17 +99,17 @@ Both indicators are also presented in a block chart. In addition to tagging each
 The second page adds new information at the county level. We see the cumulative number of COVID-19 cases by county, per 100,000 people. Like the first page, we also see these numbers on a block chart representing the counties most campers come from.
 
 ### 3. Risk Overview
-Here we try to combine the indicators into one number that can help us understand our overall risk. To do this, we calculate a field called "risk points." These are calculated for each camper based on two numbers: The positivity rate for that camper's state, and the number of cases per 100,000 in their county. We multiply these numbers together, in an equation that might look like the ones below.
+Here we try to combine the indicators into one number that can help us understand our overall risk. To do this, we calculate a field called "risk points." These are calculated for each camper based on two numbers: The positivity rate for that camper's state, and the number of cases per 100,000 in their county. We multiply these numbers together to get risk points for each camper.
 
 **Lower Risk:**
-(0.05% positivity rate * 100 cases = 5 risk points)
+0.05% pos rate * 100 cases = 5 risk points
 
 **Higher Risk:**
-(0.10% positivity rate * 300 cases = 30 risk points)
+0.10% pos rate * 300 cases = 30 risk points
 
-When we add together all the risk points for each camper, we can get a sense of our overall risk. 
+When we sum all the risk points for all campers we can get a sense of our overall risk level. When we sum the risk from certain states, counties, or camp sessions, we can compare risks and risk sources together.
 
 **Note that this does not dictate what policies or procedures we should follow. There are certain procedures we must do even if all campers are 'low risk' according to this estimate, like wearing masks and social distancing. The dashboard only serves to ground us in an understanding of some basic information on what our campers' communities are like right now.**
 
 ### 4. Risk Detail
-The final page shows risk points by individual and by camp session. We could use this detailed view to understand which sessions are more risky than others (at least based on our campers' geography). When compared with our camper database (which stores campers names and contact information), we could also develop a system to contact and create a safety plan with campers who have a high number of risk points. 
+The final page shows risk points by individual and by camp session. We could use this detailed view to understand which sessions are more risky than others, at least based on our campers' geography. When compared with our camper database, which stores campers names and contact information, we could also develop a system to contact and create a safety plan with campers who have a high number of risk points. 
