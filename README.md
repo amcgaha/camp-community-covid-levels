@@ -5,7 +5,7 @@ I work for a summer camp planning its 2021 season. We hope to base our program a
 
 ## Contents
 1. [Introduction](https://github.com/amcgaha/camp-community-covid-levels/blob/main/README.md#introduction)
-2. [Sources](https://github.com/amcgaha/camp-community-covid-levels/blob/main/README.md#sources)
+2. [Data Sources](https://github.com/amcgaha/camp-community-covid-levels/blob/main/README.md#sources)
 3. [Methods & Tools](https://github.com/amcgaha/camp-community-covid-levels/blob/main/README.md#methods--tools)
 4. [Procedures](https://github.com/amcgaha/camp-community-covid-levels/blob/main/README.md#procedure)
 5. [Product](https://github.com/amcgaha/camp-community-covid-levels/blob/main/README.md#product)
