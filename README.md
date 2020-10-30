@@ -60,7 +60,7 @@ In this step we import, clean, and combine geographic information, and then add 
 
 [View Notebook](https://github.com/amcgaha/camp-community-covid-levels/blob/main/county_details_to_database.ipynb)
 
-### 2. Update Database with Latest Camper information
+### 2. Update Database with New Campers
 Campers enroll in summer camp throughout the year, and so we need to continually update our database to include the most recent information on who is enrolled and where they come from. In this step we process that information from our company data management system into a form that matches our database. Then we upload it.
 
 [View Notebook](https://github.com/amcgaha/camp-community-covid-levels/blob/main/update_campers_in_database_public.ipynb)
@@ -71,7 +71,7 @@ Next, we download the COVID datasets, process them, and combine them with inform
 [View Notebook](https://github.com/amcgaha/camp-community-covid-levels/blob/main/collecting_covid_data.ipynb)
 
 ### 4. Generate Dashboard
-In Tableau, we import the file created in the last step. After first exploring what visualizations will be the most helpful in describing the data, we create dashboards and combine them into a story (a series of dashboards) that we can update at any point with new data.
+In Tableau, we import the file created in the previous step. After first exploring what visualizations will be the most helpful in describing the data, we create dashboards and combine them into a story (a series of dashboards) that we can update at any point with new data.
 
 [View Tableau Workbook](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
