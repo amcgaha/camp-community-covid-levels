@@ -4,13 +4,13 @@
 ## Introduction
 I work for a [summer camp](www.greenriverpreserve.org) in North Carolina. Our most important project this year is developing a safe opening plan in the context of COVID-19. With many best practices available, our team would like to know how restrictive our policies and procedures need to be this summer.
 
-We hope to strike a smart balance between classic camp freedoms and a safe environment. We want our restriction level to be informed by the epidemiological conditions in our campers' communities when we are making plans this spring. We also want to be able to adjust our plans as those conditions change throughout the summer.
-
-Right now we lack a robust way to incorporate COVID-19 data into our decision-making. How will we determine our risk level in the planning phase, as well as during the summer as conditions continue to evolve?
+We hope to strike an intelligent balance between freedom and a safe environment. Ideally, the level of restrictions we require would be informed by the current epidemiological conditions in our campers' communities. Because the pandemic seems to be ever-change, we would also want to know when to adjust our plans as conditions change throughout the spring and summer.
 
 Our campers come from many different states and counties in the United States, but we have significant clusters in certain communities. We know that in the United States there are differences in COVID-19 outbreaks across communities, making location-specific data an important analytical tool.
 
-This project connects the geography of COVID-19 data, including cases by county and positivity rates by state, with a database of enrolled campers that includes their zip codes. The result is an interactive dashboard that visualizes current COVID-19 risks based on geography to inform our planning process over time.
+Before this project, we had no way to incorporate specific data about our campers' communities into our decision-making. Without this data, our process for determining risk would be limited at best -- and prone to bias and self-deception at worst. We might, for example, base our decisions on data about the nation as a whole, missing the important distinctions in geography that would reveal higher or lower risks. Or, with the pressure mounting to get good news, we might unconsciously select datapoints or anecdotes that lead us to underestimate the risks we face.
+
+This project provides a robust _first look_ at the conditions in our campers' communities. It connects the geography of COVID-19 data, including cases by county and positivity rates by state, with a database of enrolled campers that includes their zip codes. The result is an interactive dashboard that visualizes current COVID-19 data and estimated risks based on geography to inform our planning process.
 
 A preview of the dashboard is embedded below. To visit the interactive version, [click here.](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
