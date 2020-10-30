@@ -85,7 +85,7 @@ In Tableau, we import the file created in the previous step. After first explori
 [View Tableau Workbook](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
 ## Product
-The final product is an interactive dashboard with four parts. It is built using Tableau. [Click here to view.](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link). 
+The final product is an interactive dashboard with four parts. It is built using Tableau. [Click here to view.](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
 
 ### 1. State Indicators
@@ -102,10 +102,10 @@ The second page adds new information at the county level. We see the cumulative 
 Here we try to combine the indicators into one number that can help us understand our overall risk. To do this, we calculate a field called "risk points." These are calculated for each camper based on two numbers: The positivity rate for that camper's state, and the number of cases per 100,000 in their county. We multiply these numbers together to get risk points for each camper.
 
 **Lower Risk:**
-0.05% pos rate * 100 cases = 5 risk points
+0.05 pos rate * 100 cases = 5 risk points
 
 **Higher Risk:**
-0.10% pos rate * 300 cases = 30 risk points
+0.10 pos rate * 300 cases = 30 risk points
 
 When we sum all the risk points for all campers we can get a sense of our overall risk level. When we sum the risk from certain states, counties, or camp sessions, we can compare risks and risk sources together.
 
