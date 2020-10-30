@@ -1,6 +1,8 @@
 # Summer Camp COVID Risk:
 # Assessing Current Conditions by Customer Location
 
+I work for a summer camp planning its 2021 season. We hope to base our program and policy decisions on the level of community spread in our campers' hometowns. This project connects camper geography to the latest COVID-19 community spread data and generates an interactive dashboard for decision-makers.
+
 ## Contents
 1. [Introduction](https://github.com/amcgaha/camp-community-covid-levels/blob/main/README.md#introduction)
 2. [Sources](https://github.com/amcgaha/camp-community-covid-levels/blob/main/README.md#sources)
