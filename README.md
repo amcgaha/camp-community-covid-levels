@@ -114,7 +114,9 @@ Here we try to combine the indicators into one number that can help us understan
 
 When we sum all the risk points for all campers we can get a sense of our overall risk level. When we sum the risk from certain states, counties, or camp sessions, we can compare risks and risk sources together.
 
-![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/risk_preview_block.png)  
+![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/risk_preview_block.png)
+
+![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/risk_preview_map.png)  
 
 **Note that this does not dictate what policies or procedures we should follow. There are certain procedures we must do even if all campers are 'low risk' according to this estimate, like wearing masks and social distancing. The dashboard only serves to ground us in an understanding of some basic information on what our campers' communities are like right now.**
 
