@@ -1,7 +1,7 @@
 # Summer Camp COVID Risk:
 # Assessing Current Conditions by Customer Location
 
-I work for a summer camp planning its 2021 season. We hope to base our program and policy decisions on the level of community spread in our campers' home counties. This project connects camper geography to the latest COVID-19 data and generates an interactive dashboard for decision-makers.
+I work for a summer camp planning its 2021 season. We hope to base our program and policy decisions on the level of community spread in our campers' home counties. This project connects camper geography to the latest COVID-19 data and generates an interactive dashboard for decision-makers. [Click here to view the final product.](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
 ## Contents
 1. [Introduction](https://github.com/amcgaha/camp-community-covid-levels/blob/main/README.md#introduction)
@@ -25,9 +25,8 @@ This project provides a simple but useful shapshot into the current conditions i
 
 We present the data in an interactive dashboard for decision-makers. The dashboard visualizes current COVID-19 data in our campers' states and counties, along with estimates of the risks presented to our community based on how many campers come from each place. 
 
-A preview of the dashboard is embedded below. To visit the interactive version, [click here.](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+[Click here to view the final product.](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
-<div class='tableauPlaceholder' id='viz1604081238501' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;CampCovidAssessCountyDashboard&#47;CampRiskProfile&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CampCovidAssessCountyDashboard&#47;CampRiskProfile' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;CampCovidAssessCountyDashboard&#47;CampRiskProfile&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                
 
 ## Sources
 This project connects three categories of data: dynamic COVID data, basic geographic and demographic data, and the latest information on the campers who are enrolled in summer camp.
@@ -54,6 +53,7 @@ For state-level data, we connect to [The Atlantic's COVID-19 Tracking Project](h
 We also need sources to help us complete "sanity checks" and validate certain information. Whenever we have doubts or questions we will consult the [Johns Hopkins University Coronavirus Resource Center](https://coronavirus.jhu.edu/us-map), which has a wealth of reliable state and county information.
 
 For more information about the challenges of COVID-19 data collection and interpretation, [read this article in Wired.](https://www.wired.com/story/covid-19-data-in-the-us-is-an-information-catastrophe/)
+
 
 ## Methods & Tools
 We process our data using __Python__ and the __Pandas__ library. Each step is completed in a series of __Jupyter Notebooks__ so the process can be followed in detail.
@@ -84,6 +84,7 @@ In Tableau, we import the file created in the previous step. After first explori
 
 [View Tableau Workbook](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
+
 ## Product
 The final product is an interactive dashboard with four parts. It is built using Tableau. [Click here to view.](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
@@ -95,8 +96,12 @@ The bottom half of the page shows "recent increases" in COVID-19 cases, reported
 
 Both indicators are also presented in a block chart. In addition to tagging each state with its current indicator number, the block charts show the proportion of our enrolled campers who come from that state.
 
+![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/state_percent_preview.png)  
+
 ### 2. County Indicators
 The second page adds new information at the county level. We see the cumulative number of COVID-19 cases by county, per 100,000 people. Like the first page, we also see these numbers on a block chart representing the counties most campers come from.
+
+![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/county_preview.png)  
 
 ### 3. Risk Overview
 Here we try to combine the indicators into one number that can help us understand our overall risk. To do this, we calculate a field called "risk points." These are calculated for each camper based on two numbers: The positivity rate for that camper's state, and the number of cases per 100,000 in their county. We multiply these numbers together to get risk points for each camper.
@@ -109,7 +114,12 @@ Here we try to combine the indicators into one number that can help us understan
 
 When we sum all the risk points for all campers we can get a sense of our overall risk level. When we sum the risk from certain states, counties, or camp sessions, we can compare risks and risk sources together.
 
+![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/risk_preview_block.png)  
+
 **Note that this does not dictate what policies or procedures we should follow. There are certain procedures we must do even if all campers are 'low risk' according to this estimate, like wearing masks and social distancing. The dashboard only serves to ground us in an understanding of some basic information on what our campers' communities are like right now.**
+
 
 ### 4. Risk Detail
 The final page shows risk points by individual and by camp session. We could use this detailed view to understand which sessions are more risky than others, at least based on our campers' geography. When compared with our camper database, which stores campers names and contact information, we could also develop a system to contact and create a safety plan with campers who have a high number of risk points. 
+
+![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/risk_detail_preview.png)  
