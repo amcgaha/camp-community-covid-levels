@@ -1,5 +1,5 @@
 # Summer Camp COVID Risk:
-# Assessing Current Conditions by Customer Location
+# Assessing Local Conditions
 
 I work for a summer camp planning its 2021 season. We hope to base our program and policy decisions on the level of community spread in our campers' home counties. This project connects camper geography to the latest COVID-19 data and generates an interactive dashboard for decision-makers. [Click here to view the final product.](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
