@@ -98,10 +98,12 @@ Both indicators are also presented in a block chart. In addition to tagging each
 
 ![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/state_percent_preview.png)  
 
+
 ### 2. County Indicators
 The second page adds new information at the county level. We see the cumulative number of COVID-19 cases by county, per 100,000 people. Like the first page, we also see these numbers on a block chart representing the counties most campers come from.
 
 ![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/county_preview.png)  
+
 
 ### 3. Risk Overview
 Here we try to combine the indicators into one number that can help us understand our overall risk. To do this, we calculate a field called "risk points." These are calculated for each camper based on two numbers: The positivity rate for that camper's state, and the number of cases per 100,000 in their county. We multiply these numbers together to get risk points for each camper.
@@ -119,6 +121,7 @@ When we sum all the risk points for all campers we can get a sense of our overal
 ![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/risk_preview_map.png)  
 
 **Note that this does not dictate what policies or procedures we should follow. There are certain procedures we must do even if all campers are 'low risk' according to this estimate, like wearing masks and social distancing. The dashboard only serves to ground us in an understanding of some basic information on what our campers' communities are like right now.**
+
 
 
 ### 4. Risk Detail
