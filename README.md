@@ -124,4 +124,5 @@ When we sum all the risk points for all campers we can get a sense of our overal
 ### 4. Risk Detail
 The final page shows risk points by individual and by camp session. We could use this detailed view to understand which sessions are more risky than others, at least based on our campers' geography. When compared with our camper database, which stores campers names and contact information, we could also develop a system to contact and create a safety plan with campers who have a high number of risk points. 
 
-![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/risk_preview_detail.png)  
+
+![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/risk_preview_detail.png)
