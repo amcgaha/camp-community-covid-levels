@@ -1,5 +1,4 @@
-# Summer Camp COVID Risk:
-# Assessing Current Conditions by Customer Location
+# Summer Camp COVID Risk: Assessing Local Conditions
 
 I work for a summer camp planning its 2021 season. We hope to base our program and policy decisions on the level of community spread in our campers' home counties. This project connects camper geography to the latest COVID-19 data and generates an interactive dashboard for decision-makers. [Click here to view the final product.](https://public.tableau.com/views/CampCovidAssessCountyDashboard/CampRiskProfile?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
@@ -40,7 +39,7 @@ To keep these parts confidential, as well as make querying specific information 
 ### Geographic Data
 Prior to this project, the geographic information we stored on campers was limited to home addresses. Because COVID data is reported by health departments at the county level, we needed a way to connect zip codes to counties.  We use a [conversion table from the U.S. Department of Housing and Urban Development](https://github.com/amcgaha/camp-community-covid-levels/blob/main/zip_to_county_hud.csv) to make this conversion.
 
-In order to calculate the number of cases per 100,000 people, a metric that standardizes numbers according to population, we needed to find the population for each state and county. We add the state population with a convenient [table from the U.S. Census bureau](https://github.com/amcgaha/camp-community-covid-levels/blob/main/state_pop_2019_census_bureau.csv). We add the [county population from this webpage](https://github.com/amcgaha/camp-community-covid-levels/blob/main/covid_county_population_usafacts.csv) recommended by the CDC. These sources are ideal because the data is stripped down and relatively easy to process.
+In order to calculate the number of cases per 100,000 people, a metric that standardizes numbers according to population, we needed to find the population for each state and county. We add the state population with a convenient [table from the U.S. Census Bureau](https://github.com/amcgaha/camp-community-covid-levels/blob/main/state_pop_2019_census_bureau.csv). We add the [county population from this webpage](https://github.com/amcgaha/camp-community-covid-levels/blob/main/covid_county_population_usafacts.csv) recommended by the CDC. These sources are ideal because the data is stripped down and relatively easy to process.
 
 
 ### Dynamic COVID-19 Data
@@ -98,10 +97,12 @@ Both indicators are also presented in a block chart. In addition to tagging each
 
 ![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/state_percent_preview.png)  
 
+
 ### 2. County Indicators
 The second page adds new information at the county level. We see the cumulative number of COVID-19 cases by county, per 100,000 people. Like the first page, we also see these numbers on a block chart representing the counties most campers come from.
 
 ![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/county_preview.png)  
+
 
 ### 3. Risk Overview
 Here we try to combine the indicators into one number that can help us understand our overall risk. To do this, we calculate a field called "risk points." These are calculated for each camper based on two numbers: The positivity rate for that camper's state, and the number of cases per 100,000 in their county. We multiply these numbers together to get risk points for each camper.
@@ -121,7 +122,9 @@ When we sum all the risk points for all campers we can get a sense of our overal
 **Note that this does not dictate what policies or procedures we should follow. There are certain procedures we must do even if all campers are 'low risk' according to this estimate, like wearing masks and social distancing. The dashboard only serves to ground us in an understanding of some basic information on what our campers' communities are like right now.**
 
 
+
 ### 4. Risk Detail
 The final page shows risk points by individual and by camp session. We could use this detailed view to understand which sessions are more risky than others, at least based on our campers' geography. When compared with our camper database, which stores campers names and contact information, we could also develop a system to contact and create a safety plan with campers who have a high number of risk points. 
 
-![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/risk_preview_detail.png)  
+
+![Image](https://github.com/amcgaha/camp-community-covid-levels/blob/main/risk_preview_detail.png)
