@@ -20,7 +20,7 @@ Before this project, we had no way to incorporate specific data about our camper
 
 The solution to this dilemma is data. 
 
-This project provides a simple but useful shapshot into the current conditions in our campers' communities. It connects the geography of COVID-19 data, including cases by county and positivity rates by state, with a database of enrolled campers that includes their home address. 
+This project provides a simple but useful snapshot into the current conditions in our campers' communities. It connects the geography of COVID-19 data, including cases by county and positivity rates by state, with a database of enrolled campers that includes their home address. 
 
 We present the data in an interactive dashboard for decision-makers. The dashboard visualizes current COVID-19 data in our campers' states and counties, along with estimates of the risks presented to our community based on how many campers come from each place. 
 
